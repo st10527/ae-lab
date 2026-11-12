@@ -158,16 +158,26 @@ sections:
   - block: markdown
     id: service
     content:
-      title: 學術服務
+      title: 學術服務與審查委員 (Academic Service & Reviewer)
       text: |
-        <div class="aelab-service">
+        <div class="aelab-service space-y-6">
 
-        | 年度 | 擔任職位 | 會議 / 期刊 |
-        |------|---------|-------------|
+        #### 國際會議組織與議程主席 (Conference Organization)
+
+        | 年度 | 擔任職位 | 會議名稱 / 地點 |
+        |:---:|:---|:---|
         | 2026 | 技術議程共同主席 (Technical Program Co-Chair) | International Workshop on Mobile IoT (MIoT 2026), IEEE Ubi-Media 2026, 馬來西亞檳城 |
         | 2025 | 技術議程共同主席 & 會議主席 (Co-Chair & Session Chair) | International Workshop on Mobile IoT (MIoT 2025), IEEE Ubi-Media 2025, 泰國曼谷 |
         | 2022 | 會議註冊主席 (Conference Registration Chair) | IEEE World Congress on Services (IEEE SERVICES 2022), 西班牙巴塞隆納 |
-        | 常任 | 期刊審查委員 (Journal Reviewer) | *Journal of Applied Science and Engineering (JASE)* |
+
+        #### 國際頂級期刊與會議審查委員 (Peer Review Services)
+
+        | 審查類型 | 期刊 / 會議名稱 |
+        |:---:|:---|
+        | **期刊審查 (Journal Reviewer)** | *IEEE Transactions on Wireless Communications (IEEE TWC)*（IEEE 通訊學會旗艦頂級期刊） |
+        | **期刊審查 (Journal Reviewer)** | *Arrays* (Elsevier) |
+        | **期刊審查 (Journal Reviewer)** | *Journal of Applied Science and Engineering (JASE)* |
+        | **會議審查 (Conference Reviewer)** | *IEEE Vehicular Technology Conference (IEEE VTC Spring)*（IEEE 車載科技學會旗艦會議） |
 
         </div>
     design:

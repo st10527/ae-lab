@@ -146,16 +146,26 @@ sections:
   - block: markdown
     id: service
     content:
-      title: Academic Service
+      title: Academic Service & Reviewer
       text: |
-        <div class="aelab-service">
+        <div class="aelab-service space-y-6">
+
+        #### Conference Organization & Leadership
 
         | Year | Role | Event / Venue |
-        |------|------|---------------|
+        |:---:|:---|:---|
         | 2026 | Technical Program Co-Chair | International Workshop on Mobile IoT (MIoT 2026), IEEE Ubi-Media 2026, Penang, Malaysia |
         | 2025 | Technical Program Co-Chair & Session Chair | International Workshop on Mobile IoT (MIoT 2025), IEEE Ubi-Media 2025, Bangkok, Thailand |
         | 2022 | Conference Registration Chair | IEEE World Congress on Services (IEEE SERVICES 2022), Barcelona, Spain |
-        | Ongoing | Journal Reviewer | *Journal of Applied Science and Engineering (JASE)* |
+
+        #### Peer Review Services (Journal & Conference Reviewer)
+
+        | Type | Venue / Publisher |
+        |:---:|:---|
+        | **Journal Reviewer** | *IEEE Transactions on Wireless Communications (IEEE TWC)* |
+        | **Journal Reviewer** | *Arrays* (Elsevier) |
+        | **Journal Reviewer** | *Journal of Applied Science and Engineering (JASE)* |
+        | **Conference Reviewer** | *IEEE Vehicular Technology Conference (IEEE VTC Spring)* |
 
         </div>
     design:
