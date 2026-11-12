@@ -53,9 +53,9 @@ sections:
     content:
       title: ""
       items:
-        - statistic: "21"
+        - statistic: "24"
           description: Publications
-          sub_metric: Journals · Conferences · Patents
+          sub_metric: 21 Published · 3 Under Review
           icon: hero/document-text
         - statistic: "4"
           description: Journal Articles
@@ -119,7 +119,7 @@ sections:
       count: 3
       archive:
         enable: true
-        text: All publications (21) →
+        text: All publications (24) →
         link: publication/
     design:
       view: card

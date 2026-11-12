@@ -6,6 +6,26 @@ design:
   spacing: "3.5rem"
 
 sections:
+  # 審查中論文 (Manuscripts Under Review)
+  - block: collection
+    id: under-review
+    content:
+      title: 📝 Manuscripts Under Review
+      text: Submitted journal manuscripts currently in peer review (IEEE Communications Letters, Computer Networks, IEEE IoT-J).
+      filters:
+        folders:
+          - publication
+        tags:
+          - under-review
+      sort_by: 'Date'
+      sort_ascending: false
+      count: 0
+      offset: 0
+    design:
+      view: citation
+      columns: 1
+      css_class: "bg-amber-50/60 dark:bg-amber-950/20 border-b border-amber-200/50 dark:border-amber-900/30"
+
   # 期刊論文 (Journal Papers)
   - block: collection
     id: journals

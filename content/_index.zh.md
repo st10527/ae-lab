@@ -65,9 +65,9 @@ sections:
     content:
       title: ""
       items:
-        - statistic: "21"
+        - statistic: "24"
           description: 著作發表
-          sub_metric: 期刊 · 國際會議 · 發明專利
+          sub_metric: 21 篇已發表 · 3 篇審查中
           icon: hero/document-text
         - statistic: "4"
           description: 期刊論文
@@ -131,7 +131,7 @@ sections:
       count: 3
       archive:
         enable: true
-        text: 檢視全部著作發表 (21) →
+        text: 檢視全部著作發表 (24) →
         link: publication/
     design:
       view: card
