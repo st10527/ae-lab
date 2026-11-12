@@ -135,7 +135,7 @@ sections:
       date_format: "2006"
       is_education_first: false
 
-  # ───────────────────────── Service & Honors ─────────────────────────
+  # ───────────────────────── Service ─────────────────────────
   - block: markdown
     id: service
     content:
@@ -153,12 +153,6 @@ sections:
         </div>
     design:
       columns: 1
-
-  - block: resume-awards
-    id: honors
-    content:
-      title: Honors & Awards
-      username: me
 
   # ───────────────────────── Teaching ─────────────────────────
   - block: features
@@ -195,11 +189,11 @@ sections:
       columns: "4"
       css_class: "bg-slate-50 dark:bg-slate-900/40"
 
-  # ───────────────────────── Students ─────────────────────────
+  # ───────────────────────── Students & Mentorship ─────────────────────────
   - block: markdown
     id: students
     content:
-      title: Students
+      title: Student Mentorship & Awards
       text: |
         <div class="aelab-students">
 
@@ -210,10 +204,12 @@ sections:
         | 王佳美 Gabriella Alicia Setiawan | M.S., CSIE (English-taught) | Cross-lingual knowledge distillation & federated distillation in wireless edge networks *(IEEE PIMRC 2026)* |
         | 黃祥銘 Shiang-Ming Huang | M.S., CSIE | Actor-Critic / MADDPG relay selection and task scheduling in V2X-MEC *(IEEE APWCS 2026)* |
 
-        #### Student Awards
+        #### Student Competition Awards (學生競賽獲獎)
 
-        - 🥉 [**2025 ICPC Taiwan PUPC — Bronze Medal**](award/2025-icpc-pupc/) · Ting Yang Lim, KAI EN LIN, Chen-Yu Chen
-        - 🏆 [**2025 TKU CSIE Project Competition — Merit Award**](award/2025-csie-project/) · 歐陽林、張福明、沈千淦 — Campus International Friendship Matching System
+        | Year | Competition / Award | Project / Team |
+        |------|---------------------|----------------|
+        | 2025 | 🥉 [**ICPC Taiwan PUPC 銅牌獎**](award/2025-icpc-pupc/) | Ting Yang Lim, KAI EN LIN, Chen-Yu Chen |
+        | 2025 | 🏆 [**淡江資工週系級專題競賽 佳作**](award/2025-csie-project/) | 校園國際交友配對系統 · 歐陽林、張福明、沈千淦 |
 
         </div>
     design:

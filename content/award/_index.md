@@ -1,12 +1,12 @@
 ---
-title: Awards & Honors
+title: Student Awards
 type: landing
 
 sections:
   - block: collection
     content:
-      title: 學生競賽獲獎
-      text: 指導學生參加競賽榮獲獎項
+      title: 學生指導與競賽獲獎
+      text: 指導學生參加國內外程式與專題競賽獲獎紀錄
       filters:
         folders:
           - award
