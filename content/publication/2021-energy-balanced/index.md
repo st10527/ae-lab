@@ -20,7 +20,7 @@ publication_short: "IEEE Access"
 
 abstract: "Unmanned aerial vehicles (UAVs) serving as flying ferries can effectively gather data from wireless sensor networks (WSNs) in areas with limited infrastructure. This paper addresses the energy-balanced optimization problem for UAV placement in data gathering scenarios. We formulate an optimization model that jointly considers sensor energy consumption, UAV hovering locations, and data collection schedules. The objective is to maximize network lifetime by balancing energy consumption across all sensors. We propose a heuristic algorithm that determines optimal UAV hovering points and visiting sequences to minimize the maximum energy consumption among sensors."
 
-summary: "SCI, JCI Ranking – Q2/Computer Science, Information Systems, Q2/Engineering, Electrical & Electronic. **(Student First Author)**"
+summary: "SCI, JCI Ranking – Q2/Computer Science, Information Systems, Q2/Engineering, Electrical & Electronic. [(Student First Author)]"
 
 tags:
   - journal

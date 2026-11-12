@@ -1,0 +1,76 @@
+schema: hugoblox/author/v1
+slug: sheng-zhi-huang
+is_owner: true
+name:
+  display: Sheng-Zhi Huang
+  given: Sheng-Zhi
+  family: Huang
+  pronunciation: Sheng-Zhi Huang
+status:
+  icon: ""
+role: Assistant Professor
+bio: |
+  I am an Assistant Professor at Tamkang University. My research focuses on UAV Networks, Multi-Access Edge Computing, and emerging wireless technologies. I received my Ph.D. from National Central University in 2023, and was a Visiting Scholar at Iowa State University (2022-2023) under NSTC's Graduate Students Study Abroad Program.
+affiliations:
+  - name: Dept. of CSIE, Tamkang University
+    department: Dept. of Computer Science & Information Engineering
+    url: https://www.csie.tku.edu.tw/
+interests:
+  - UAV Networks & Flying Ad-hoc Networks
+  - Multi-Access Edge Computing (MEC)
+  - Space-Air-Ground Integrated Networks (SAGIN)
+  - Financial Technology (FinTech)
+education:
+  - area: Ph.D. in Communication Engineering
+    institution: National Central University, Taiwan
+    date_end: '2023-06-01'
+  - area: B.S. in Communication Engineering
+    institution: National Central University, Taiwan
+    date_end: '2016-06-01'
+work:
+  - position: Assistant Professor
+    company_name: Tamkang University
+    company_url: https://www.csie.tku.edu.tw/
+    date_start: '2023-08-01'
+    summary: Dept. of Computer Science & Information Engineering. Directing the Autonomous Edge LAB (AE LAB) on UAV networks, edge AI, and AIoT systems.
+  - position: Visiting Scholar (NSTC Program)
+    company_name: Iowa State University, USA
+    date_start: '2022-03-01'
+    date_end: '2023-03-01'
+    summary: Visiting scholar with Prof. Carl K. Chang under NSTC's Graduate Students Study Abroad Program.
+  - position: Lecturer
+    company_name: National Chengchi University
+    date_start: '2018-01-01'
+    date_end: '2018-12-31'
+  - position: Research Assistant
+    company_name: NSTC Research Projects, National Central University
+    date_start: '2017-01-01'
+    date_end: '2023-06-30'
+awards:
+  - title: Champion — HP Enterprise AI Hackathon (Taiwan)
+    awarder: Hewlett Packard Enterprise
+    date: '2018-01-01'
+    icon: trophy
+  - title: Silver Medal — 7th Information Application Innovation Competition
+    awarder: Information Application Innovation Competition
+    date: '2019-01-01'
+    icon: trophy
+  - title: Outstanding Innovation Team Award
+    awarder: National Central University
+    date: '2018-06-01'
+    icon: star
+  - title: Merit Award — 10th Chien-Li-Ma Startup Competition
+    awarder: Chien-Li-Ma Startup Competition
+    date: '2017-01-01'
+    icon: star
+  - title: Excellence Award — Fresh Competition
+    awarder: Ministry of Economic Affairs, Taiwan
+    date: '2016-01-01'
+    icon: star
+links:
+  - icon: at-symbol
+    url: mailto:167320@o365.tku.edu.tw
+    label: E-mail Me
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0003-3735-0613
+    label: ORCID

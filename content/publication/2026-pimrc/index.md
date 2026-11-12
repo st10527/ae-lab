@@ -19,7 +19,7 @@ publication_short: "IEEE PIMRC 2026"
 
 abstract: "This paper investigates the uplink federated distillation problem in wireless edge networks, where mobile devices collaborate to train a machine learning model without sharing raw data. We propose a channel-aware Stackelberg game framework to design incentive mechanisms that encourage user participation while considering wireless channel conditions. The leader (edge server) determines the reward structure, and followers (mobile devices) decide their participation levels based on communication costs and channel quality. Our approach jointly optimizes computation offloading, communication resource allocation, and incentive design to maximize system utility while ensuring fairness among participants with heterogeneous channel conditions."
 
-summary: "**(First Author)** Presented at IEEE PIMRC 2026, Track 3: Mobile and Wireless Networks."
+summary: "[(First Author)] Presented at IEEE PIMRC 2026, Track 3: Mobile and Wireless Networks."
 
 tags:
   - conference

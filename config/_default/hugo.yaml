@@ -5,7 +5,7 @@
 
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'Autonomous Edge LAB'
-baseURL: 'https://st10527.github.io/clever-atlas/' # Website URL
+baseURL: 'https://st10527.github.io/ae-lab/' # Website URL (改用學校網域時，修改這裡即可)
 
 ############################
 ## PAGE OPTIONS

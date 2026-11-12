@@ -19,7 +19,7 @@ publication_short: "IEEE Globecom 2025"
 
 abstract: "This paper investigates the hovering and recharging route planning problem for cooperative UAV-assisted data gathering in wireless sensor networks. We consider a scenario where multiple UAVs collaborate to collect data from ground sensors while managing their limited battery capacity through wireless charging stations. The proposed framework jointly optimizes UAV hovering locations, data collection schedules, and recharging routes to maximize data gathering efficiency. We formulate this as a mixed-integer programming problem and develop an efficient heuristic algorithm that balances data collection performance with energy constraints."
 
-summary: "**(First Author)** Presented at IEEE Globecom 2025, Taipei, Taiwan."
+summary: "[(First Author)] Presented at IEEE Globecom 2025, Taipei, Taiwan."
 
 tags:
   - conference
@@ -51,6 +51,8 @@ slides: ""
 ## Conference Presentation
 
 Presented at **IEEE Global Communications Conference (Globecom) 2025**, one of the flagship conferences of the IEEE Communications Society, held in Taipei, Taiwan.
+
+![Interactive Session Presentation at IEEE Globecom 2025](presentation.png)
 
 ## Research Problem
 

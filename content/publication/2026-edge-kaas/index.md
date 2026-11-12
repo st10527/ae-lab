@@ -17,7 +17,7 @@ publication_short: "IEEE EDGE 2026"
 
 abstract: "Deploying distributed machine learning across heterogeneous wireless edge networks faces significant challenges due to variations in local computing capabilities, memory constraints, battery capacities, and dynamic wireless channel conditions. This paper proposes KaaS-Edge, a resource-aware Knowledge-as-a-Service (KaaS) framework that provisions collaborative knowledge distillation services across heterogeneous edge devices and servers. Instead of transmitting heavy model parameters or raw data, KaaS-Edge exchanges lightweight soft representations while dynamically optimizing service provisioning and resource allocation to minimize communication overhead and respect hardware constraints of heterogeneous edge nodes."
 
-summary: "**(Single Author)** Presented at IEEE International Conference on Edge Computing and Communications (IEEE EDGE 2026), Sydney, Australia."
+summary: "[(Single Author)] Presented at IEEE International Conference on Edge Computing and Communications (IEEE EDGE 2026), Sydney, Australia."
 
 tags:
   - conference

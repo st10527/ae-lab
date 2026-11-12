@@ -16,7 +16,7 @@ publication_short: "IEEE APWCS 2018"
 
 abstract: "This paper addresses the UAV placement problem for data gathering in harsh environments where ground-based infrastructure is unavailable or damaged. We consider scenarios such as disaster areas, remote regions, or conflict zones where traditional communication networks are compromised. The proposed placement strategy determines optimal UAV positions that maximize coverage and connectivity while accounting for environmental constraints such as obstacles, terrain elevation, and weather conditions. We formulate this as an optimization problem and develop a practical algorithm that adapts to dynamic environmental changes."
 
-summary: "**(First Author)** Presented at IEEE VTS APWCS 2018, Taiwan."
+summary: "[(First Author)] Presented at IEEE VTS APWCS 2018, Taiwan."
 
 tags:
   - conference

@@ -4,213 +4,257 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: "5rem"
+  spacing: "6rem"
 
 sections:
-  # About Me
-  - block: resume-biography
+  # ───────────────────────── Hero / Biography ─────────────────────────
+  - block: resume-biography-3
     id: about
     content:
       username: me
       text: ""
+      headings:
+        about: Research Profile
+        education: Education
+        interests: Research Interests
+      button:
+        text: Join AE LAB
+        url: "#contact"
     design:
+      name:
+        size: md
+      avatar:
+        size: large
+        shape: circle
+      css_class: "aelab-hero"
       spacing:
-        padding: ["3rem", 0, "2rem", 0]
+        padding: ["2rem", 0, "3rem", 0]
 
-  # Research Interests
-  - block: features
+  # ───────────────────────── At a glance ─────────────────────────
+  - block: stats
+    id: stats
+    content:
+      title: ""
+      items:
+        - statistic: "21"
+          description: Publications
+          sub_metric: Journals · Conferences · Patents
+          icon: hero/document-text
+        - statistic: "4"
+          description: Journal Articles
+          sub_metric: IEEE OJ-COMS · IEEE Access · IET
+          icon: hero/book-open
+        - statistic: "2"
+          description: Patents
+          sub_metric: United States & Taiwan (R.O.C.)
+          icon: hero/light-bulb
+        - statistic: "2"
+          description: Funded Projects
+          sub_metric: NSTC & Industry Collaboration
+          icon: hero/briefcase
+    design:
+      layout: compact
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
+
+  # ───────────────────────── Research ─────────────────────────
+  - block: research-areas
     id: research
     content:
-      title: Research Interests
-      text: ""
+      title: Research Areas
+      subtitle: Autonomous systems at the network edge
+      text: "AE LAB studies how drones, vehicles, and IoT devices can **sense, compute, and cooperate** at the edge of wireless networks — and turns these ideas into deployable systems with industry and cross-disciplinary partners."
       items:
         - name: UAV Networks
-          icon: paper-airplane
-          description: Flying Ad-hoc Networks (FANETs), path planning, swarm intelligence, and heterogeneous UAV collaboration for data gathering.
-          
-        - name: Edge Computing
-          icon: cpu-chip
-          description: Multi-Access Edge Computing (MEC), intelligent task migration, Deep Q-Learning optimization, and mobile crowdsourcing.
-          
-        - name: Edge AI Applications
-          icon: wrench-screwdriver
-          description: "Smart construction site monitoring (w/ Civil Eng.), hydrological data analysis (w/ Water Resources), and intelligent evacuation systems (w/ Architecture)."
-          
-        - name: FinTech & AI
-          icon: chart-bar
-          description: AI/ML in financial systems, blockchain networks, big data analytics, and algorithmic trading strategies.
+          description: Cooperative multi-UAV data gathering, path & recharging planning, in-flight wireless power transfer, and 3D aerial delay-tolerant networking.
+          icon: hero/paper-airplane
+          gradient: from-blue-600 to-indigo-700
+          topics: [FANETs, Wireless Charging, Route Planning, WSNs]
+        - name: Edge Computing & Edge AI
+          description: Multi-access edge computing, task offloading & migration with deep reinforcement learning, and federated / knowledge distillation over wireless links.
+          icon: hero/cpu-chip
+          gradient: from-sky-500 to-blue-700
+          topics: [MEC, Deep RL, Federated Distillation, Game Theory]
+        - name: Vehicular & V2X Networks
+          description: Multi-hop V2X relay selection, cooperative media distribution among vehicles, and data-driven driving-safety risk prediction.
+          icon: hero/truck
+          gradient: from-teal-500 to-cyan-700
+          topics: [V2X-MEC, Actor-Critic, Driving Safety]
+        - name: AIoT for Smart Construction
+          description: On-premise edge AIoT for real-time site safety — lightweight vision models, sensing gateways, and resilient disconnected communication (with Civil Engineering).
+          icon: hero/wrench-screwdriver
+          gradient: from-indigo-600 to-slate-800
+          topics: [Edge AIoT, YOLO, Knowledge Distillation, Field Validation]
     design:
-      columns: "2"
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
+      layout: cards
+      css_class: "bg-slate-50 dark:bg-slate-900/40"
 
-  # Experience & Honors
-  - block: markdown
-    id: experience
-    content:
-      title: Experience & Honors
-      text: |
-        ### Professional Experience
-        
-        | Period | Position | Organization |
-        |--------|----------|-------------|
-        | 2023 - Present | Assistant Professor | Tamkang University |
-        | 2022 - 2023 | Visiting Scholar (NSTC Program) | Iowa State University, USA |
-        | 2018 | Lecturer | National Chengchi University |
-        | 2017 - 2023 | Research Assistant | NSTC Research Projects |
-        
-        ### Academic Service & International Conferences
-        
-        | Year | Role | Event / Venue |
-        |------|------|---------------|
-        | 2026 | Technical Program Co-Chair | International Workshop on Mobile IoT (MIoT 2026), IEEE Ubi-Media 2026, Penang, Malaysia |
-        | 2025 | Technical Program Co-Chair & Session Chair | International Workshop on Mobile IoT (MIoT 2025), IEEE Ubi-Media 2025, Bangkok, Thailand |
-        | 2022 | Conference Registration Chair | IEEE World Congress on Services (IEEE SERVICES 2022), Barcelona, Spain |
-        | Ongoing | Journal Reviewer | *Journal of Applied Science and Engineering (JASE)* (Scopus/ESCI) |
-        
-        ### Awards & Honors
-        
-        | Year | Award |
-        |------|-------|
-        | 2019 | Silver Medal - 7th Information Application Innovation Competition |
-        | 2018 | **Champion** - HP Enterprise AI Hackathon (Taiwan) |
-        | 2018 | NCU Outstanding Innovation Team Award |
-        | 2017 | Merit Award - 10th Chien-Li-Ma Startup Competition |
-        | 2016 | Excellence Award - Ministry of Economic Affairs Fresh Competition |
-    design:
-      columns: 1
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
-
-  # Featured Publications
+  # ───────────────────────── Selected Publications ─────────────────────────
   - block: collection
     id: publications
     content:
       title: Selected Publications
+      text: Recent highlights from AE LAB. See the [full publication list](publication/) for journals, conferences, and patents.
       filters:
         folders:
           - publication
         featured_only: true
       count: 4
+      archive:
+        enable: true
+        text: All publications →
+        link: publication/
     design:
       view: card
       columns: 2
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
+      show_read_time: false
 
-  # Teaching
+  # ───────────────────────── Projects ─────────────────────────
+  - block: collection
+    id: projects
+    content:
+      title: Research Projects
+      text: Funded research and industry–academia collaborations.
+      filters:
+        folders:
+          - project
+      count: 4
+    design:
+      view: card
+      columns: 2
+      show_read_time: false
+      css_class: "bg-slate-50 dark:bg-slate-900/40"
+
+  # ───────────────────────── Experience ─────────────────────────
+  - block: resume-experience
+    id: experience
+    content:
+      title: Experience
+      username: me
+    design:
+      date_format: "2006"
+      is_education_first: false
+
+  # ───────────────────────── Service & Honors ─────────────────────────
   - block: markdown
+    id: service
+    content:
+      title: Academic Service
+      text: |
+        <div class="aelab-service">
+
+        | Year | Role | Event / Venue |
+        |------|------|---------------|
+        | 2026 | Technical Program Co-Chair | International Workshop on Mobile IoT (MIoT 2026), IEEE Ubi-Media 2026, Penang, Malaysia |
+        | 2025 | Technical Program Co-Chair & Session Chair | International Workshop on Mobile IoT (MIoT 2025), IEEE Ubi-Media 2025, Bangkok, Thailand |
+        | 2022 | Conference Registration Chair | IEEE World Congress on Services (IEEE SERVICES 2022), Barcelona, Spain |
+        | Ongoing | Journal Reviewer | *Journal of Applied Science and Engineering (JASE)* |
+
+        </div>
+    design:
+      columns: 1
+
+  - block: resume-awards
+    id: honors
+    content:
+      title: Honors & Awards
+      username: me
+
+  # ───────────────────────── Teaching ─────────────────────────
+  - block: features
     id: teaching
     content:
       title: Teaching
-      text: |
-        ### Undergraduate Courses
-        
-        | Course | Description |
-        |--------|-------------|
-        | Programming Language (C) | Fundamentals of C programming |
-        | Logic Design Lab | Digital circuit design and implementation |
-        | Enterprise Application Practice | Industry-oriented software development |
-        | Open Source Software Practice | Git, Linux, and open-source tools |
-        
-        ### Graduate Courses (English-Taught)
-        
-        | Course | Description |
-        |--------|-------------|
-        | Software-Centric Technologies | Modern software engineering practices |
-        | Introduction to Digital Systems | Digital system design fundamentals |
-        | Cloud Security Practice | Cloud computing security and practices |
-        | Distributed Networks | P2P, blockchain, and distributed systems |
-        
-        ### Courses I Can Teach
-        
-        **Basic:** Computer Programming, Data Structure, Computer Networks, Machine Learning Introduction
-        
-        **Advanced:** Wireless Sensor Networks, Edge Computing, Optimization Theory, Deep Learning, Queueing Theory
+      text: Undergraduate and English-taught graduate courses at Tamkang University
+      items:
+        - name: Programming Language (C)
+          icon: code-bracket
+          description: Undergraduate · Fundamentals of C programming
+        - name: Logic Design Lab
+          icon: cpu-chip
+          description: Undergraduate · Digital circuit design and implementation
+        - name: Enterprise Application Practice
+          icon: building-office-2
+          description: Undergraduate · Industry-oriented software development
+        - name: Open Source Software Practice
+          icon: command-line
+          description: Undergraduate · Git, Linux, and open-source tools
+        - name: Software-Centric Technologies
+          icon: squares-2x2
+          description: Graduate (English-taught) · Modern software engineering practices
+        - name: Introduction to Digital Systems
+          icon: circle-stack
+          description: Graduate (English-taught) · Digital system design fundamentals
+        - name: Cloud Security Practice
+          icon: shield-check
+          description: Graduate (English-taught) · Cloud computing security
+        - name: Distributed Networks
+          icon: globe-alt
+          description: Graduate (English-taught) · P2P, blockchain, and distributed systems
     design:
-      columns: 1
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
+      columns: "4"
+      css_class: "bg-slate-50 dark:bg-slate-900/40"
 
-  # Student Supervision
+  # ───────────────────────── Students ─────────────────────────
   - block: markdown
     id: students
     content:
-      title: Student Supervision
+      title: Students
       text: |
-        ### Current Students (在學學生)
-        
-        **Graduate Students (碩士生)**
-        
+        <div class="aelab-students">
+
+        #### Current Graduate Students
+
         | Name | Program | Research Topic |
         |------|---------|----------------|
-        | 王佳美 (Gabriella Alicia Setiawan) | 資工系全英碩士班 | Cross-Lingual Knowledge Distillation & Federated Distillation in Wireless Edge Networks *(IEEE PIMRC 2026)* |
-        | 黃祥銘 (Shiang-Ming Huang) | 資工系碩士班 | 車載網路結合 Actor-Critic / MADDPG 與 Edge Computing 的智慧中繼與任務調度 *(IEEE APWCS 2026)* |
-        
-        ---
-        
-        ### Join My Research Team! (招生中)
-        
-        I am actively recruiting motivated students interested in:
-        - **UAV Systems & Path Planning** - Algorithm design for drone swarms
-        - **Edge AI & IoT** - Embedded systems and real-time computing
-        - **FinTech Applications** - AI/ML in financial data analysis
-        - **Wireless Networks** - 5G/6G and satellite communications
-        
-        ---
-        
-        ### Student Awards (學生獲獎)
-        
-        🥉 [**2025 ICPC Taiwan PUPC Bronze Medal**](/award/2025-icpc-pupc/)  
-        Ting Yang Lim, KAI EN LIN, Chen-Yu Chen
-        
-        🏆 [**2025 TKU CSIE Project Competition - Merit Award**](/award/2025-csie-project/)  
-        歐陽林、張福明、沈千淦 — Campus International Friendship Matching System
-        
-        ---
-        
-        ### Research Projects & Industry-Academia Collaboration (研究計畫與產學合作)
-        
-        📡 [**NSTC Industry-Academia Project: Edge AIoT Real-Time Construction Safety Early Warning System**](/project/2026-nstc-construction-aiot/)  
-        **營建工地邊緣 AIoT 即時工安預警系統：感知推理與斷網通訊之整合與場域驗證**  
-        *Grant No.: NSTC 115-2622-E-032-006 (2026/11 – 2027/10) | Role: PI (w/ Co-PI Prof. Ming-Hsiu Tsai, Dept. of Civil Engineering) | Partner: 任泰技術顧問有限公司*
-        
-        🏗️ [**On-Premise Real-Time Edge AI Monitoring System for Smart Construction**](/project/2025-smart-construction-edge-ai/)  
-        **智慧工地與場域安全之全地端即時 AI 監控系統**  
-        *2025 – 2026 | Role: PI | Partner: 千溢科技股份有限公司* — Lightweight YOLO with Knowledge Distillation on NVIDIA Jetson Orin Nano for 24/7 site safety monitoring.
-        
-        ---
-        
-        ### Past Projects (歷年獲獎專案)
-        
-        My previous student projects have won multiple awards including:
-        - HP AI Hackathon Taiwan Champion (2018)
-        - NCU Outstanding Innovation Team (2018)
-        - Information Application Innovation Silver Medal (2019)
+        | 王佳美 Gabriella Alicia Setiawan | M.S., CSIE (English-taught) | Cross-lingual knowledge distillation & federated distillation in wireless edge networks *(IEEE PIMRC 2026)* |
+        | 黃祥銘 Shiang-Ming Huang | M.S., CSIE | Actor-Critic / MADDPG relay selection and task scheduling in V2X-MEC *(IEEE APWCS 2026)* |
+
+        #### Student Awards
+
+        - 🥉 [**2025 ICPC Taiwan PUPC — Bronze Medal**](award/2025-icpc-pupc/) · Ting Yang Lim, KAI EN LIN, Chen-Yu Chen
+        - 🏆 [**2025 TKU CSIE Project Competition — Merit Award**](award/2025-csie-project/) · 歐陽林、張福明、沈千淦 — Campus International Friendship Matching System
+
+        </div>
     design:
       columns: 1
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
 
-  # Contact
-  - block: markdown
+  # ───────────────────────── Join us ─────────────────────────
+  - block: cta-card
+    id: join
+    content:
+      title: Join AE LAB — 招收碩士生與專題生
+      text: |
+        We are looking for motivated students interested in **UAV systems**, **Edge AI & IoT**, **wireless networks (5G/6G)**, and **AI for smart construction**. Hands-on projects with NSTC and industry partners, and opportunities to publish at IEEE conferences.
+      button:
+        text: Contact Prof. Huang
+        url: mailto:167320@o365.tku.edu.tw
+        icon: hero/envelope
+    design:
+      card:
+        css_class: "bg-gradient-to-br from-blue-700 via-indigo-800 to-slate-900 text-white"
+
+  # ───────────────────────── Contact ─────────────────────────
+  - block: contact-info
     id: contact
     content:
       title: Contact
-      text: |
-        📧 **Email:** 167320@o365.tku.edu.tw
-        
-        🏢 **Office:** Department of Computer Science & Information Engineering  
-        Tamkang University, New Taipei City, Taiwan
-        
-        🔗 **Links:**  
-        [ORCID](https://orcid.org/0000-0003-3735-0613)
-        
-        ---
-        
-        *Feel free to contact me if you are interested in research collaboration or joining my lab!*
-    design:
-      columns: 1
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
+      subtitle: Feel free to reach out for research collaboration or joining the lab.
+      visit_title: Visit Us
+      connect_title: Connect
+      address:
+        lines:
+          - Autonomous Edge LAB (AE LAB)
+          - Dept. of Computer Science & Information Engineering
+          - Tamkang University
+          - No. 151, Yingzhuan Rd., Tamsui Dist.
+          - New Taipei City 251301, Taiwan
+      email: 167320@o365.tku.edu.tw
+      social:
+        - icon: brands/orcid
+          url: https://orcid.org/0000-0003-3735-0613
+        - icon: brands/github
+          url: https://github.com/st10527
+      map_url: https://maps.google.com/?q=Tamkang+University
+      show_form: false
 ---

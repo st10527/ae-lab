@@ -1,0 +1,41 @@
+# AE LAB Theme Pack — Tamkang navy / royal blue with teal accents
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "AE LAB"
+    vendor: "aelab"
+    version: "1.0.0"
+    license: "MIT"
+    description: "Academic navy & royal blue with teal accents"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "#1d4ed8"   # Royal blue
+      secondary: "#0d9488" # Teal
+      neutral: "slate"
+    surfaces:
+      background: "#ffffff"
+      foreground: "#0f172a"
+      header:
+        background: "#ffffff"
+        foreground: "#0b2545"
+      footer:
+        background: "#0b2545" # Deep navy
+        foreground: "#cbd5e1"
+
+  dark:
+    colors:
+      primary: "#60a5fa"
+      secondary: "#2dd4bf"
+      neutral: "slate"
+    surfaces:
+      background: "#0b1220"
+      foreground: "#e2e8f0"
+      header:
+        background: "#0b1220"
+        foreground: "#f1f5f9"
+      footer:
+        background: "#070c16"
+        foreground: "#94a3b8"

@@ -20,7 +20,7 @@ publication_short: "IEEE APWCS 2026"
 
 abstract: "Integrating Vehicle-to-Everything (V2X) communications with Multi-Access Edge Computing (MEC) enables vehicles to offload computation-intensive tasks to edge servers. However, in dynamic vehicular environments, direct links are often obstructed or degraded by mobility and distance, necessitating multi-hop relay selection. This paper investigates the delay-energy tradeoff in multi-hop V2X-MEC networks and proposes an Actor-Critic deep reinforcement learning framework for adaptive relay selection and task offloading. The proposed scheme dynamically adapts to non-stationary vehicular topologies and wireless channel variations to jointly minimize service latency and energy consumption."
 
-summary: "**(First Author)** Presented at IEEE VTS APWCS 2026, Seoul, Korea."
+summary: "[(First Author)] Presented at IEEE VTS APWCS 2026, Seoul, Korea."
 
 tags:
   - conference

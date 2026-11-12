@@ -19,7 +19,7 @@ publication_short: "IEEE OJ-COMS"
 
 abstract: "This paper proposes a heterogeneous multi-UAV cooperation framework for wireless sensor networks (WSNs) that integrates data gathering, computational offloading, and wireless charging capabilities. The system employs different types of UAVs to optimize network performance: data collection UAVs gather sensor data, charging UAVs provide wireless power transfer to extend network lifetime, and edge computing UAVs process data to reduce latency. We formulate an optimization problem to maximize data collection efficiency while minimizing energy consumption and propose a heuristic algorithm to determine optimal UAV trajectories and task assignments."
 
-summary: "**(First Author)** ESCI, JCI Ranking - Q1/Engineering, Electrical & Electronic, Q1/Telecommunications. Published in IEEE OJ-COMS, Vol. 7, pp. 20–39, 2026."
+summary: "[(First Author)] ESCI, JCI Ranking - Q1/Engineering, Electrical & Electronic, Q1/Telecommunications. Published in IEEE OJ-COMS, Vol. 7, pp. 20–39, 2026."
 
 tags:
   - journal

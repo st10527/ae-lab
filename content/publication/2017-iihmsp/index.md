@@ -17,7 +17,7 @@ publication_short: "IIH-MSP 2017"
 
 abstract: "Inter-vehicle media distribution plays a crucial role in enhancing driving safety by enabling vehicles to share real-time video and sensor data. This paper proposes a distributed media distribution framework that leverages vehicle-to-vehicle (V2V) communication to disseminate safety-critical information. The system prioritizes emergency content such as accident footage, road hazards, and traffic incidents. We design an efficient content caching and forwarding mechanism that considers vehicle mobility patterns and network bandwidth constraints. Experimental results demonstrate that the system significantly reduces warning message propagation delay and improves driver awareness of dangerous situations."
 
-summary: "**(First Author)** Presented at IIH-MSP 2017, Matsue, Shimane, Japan."
+summary: "[(First Author)] Presented at IIH-MSP 2017, Matsue, Shimane, Japan."
 
 tags:
   - conference
