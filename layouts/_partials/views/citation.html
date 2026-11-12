@@ -2,38 +2,38 @@
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 {{ $abstract := $item.Params.abstract | default $item.Summary }}
 
-<div class="pub-list-item view-citation group relative p-5 rounded-xl border border-slate-200/80 dark:border-slate-800 bg-white/80 dark:bg-slate-900/60 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all duration-200" style="margin-bottom: 1.25rem">
-  <div class="flex items-baseline justify-between gap-4 mb-1.5 flex-wrap">
-    <div class="text-xs font-semibold uppercase tracking-wider text-primary-700 dark:text-primary-400">
+<div class="pub-list-item view-citation group relative p-6 rounded-2xl border border-slate-200/90 dark:border-slate-800 bg-white dark:bg-slate-900/70 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-lg transition-all duration-200" data-year="{{ $item.Date.Format "2006" }}" style="margin-bottom: 1.5rem">
+  <div class="flex items-baseline justify-between gap-4 mb-2 flex-wrap">
+    <div class="text-xs sm:text-sm font-bold uppercase tracking-wider text-primary-700 dark:text-primary-400">
       {{ if $item.Params.publication_short }}
         {{ $item.Params.publication_short | markdownify }}
       {{ else if $item.Params.publication }}
         {{ $item.Params.publication | markdownify }}
       {{ end }}
     </div>
-    <time class="text-xs font-medium text-slate-500 dark:text-slate-400" datetime="{{ $item.Date.Format "2006-01-02" }}">
+    <time class="text-xs sm:text-sm font-semibold text-slate-500 dark:text-slate-400" datetime="{{ $item.Date.Format "2006-01-02" }}">
       {{ $item.Date.Format "2006" }}
     </time>
   </div>
 
-  <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors leading-snug mb-2">
+  <h3 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors leading-snug mb-2.5">
     <a href="{{ $item.RelPermalink }}">
       {{ $item.Title }}
     </a>
   </h3>
 
-  <div class="text-sm text-slate-600 dark:text-slate-300 mb-2 leading-relaxed">
+  <div class="text-sm sm:text-base text-slate-700 dark:text-slate-300 mb-3 leading-relaxed">
     {{ partial "page_metadata_authors" $item }}
   </div>
 
   {{ with $abstract }}
-  <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-3 mb-3">
+  <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed line-clamp-3 mb-4">
     {{ . | plainify | htmlUnescape }}
   </p>
   {{ end }}
 
   {{ if $has_attachments }}
-  <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-100 dark:border-slate-800/80">
+  <div class="flex flex-wrap gap-2 pt-3 border-t border-slate-100 dark:border-slate-800/80">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
   {{ end }}

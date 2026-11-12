@@ -124,7 +124,7 @@
             {{ $about_heading := $block.content.headings.about | default "Research Profile" }}
             <h2 class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $about_heading }}</h2>
           </div>
-          <div class="prose prose-slate dark:prose-invert text-gray-800 dark:text-gray-200 text-base leading-relaxed max-w-none">
+          <div class="prose prose-slate dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed max-w-none">
             {{ . }}
           </div>
         </div>
@@ -133,29 +133,29 @@
         {{/* Concise Experience & Education side-by-side */}}
         {{ $exp_items := $block.content.experience }}
         {{ $edu_items := $block.content.education }}
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
           
           {{/* Experience Column */}}
-          <div class="bg-slate-50/80 dark:bg-slate-800/60 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-700/60 shadow-sm">
-            <div class="flex items-center gap-2.5 mb-4 text-primary-700 dark:text-primary-400 font-bold text-base">
+          <div class="bg-slate-50/80 dark:bg-slate-800/60 rounded-2xl p-6 border border-slate-200/80 dark:border-slate-700/60 shadow-sm">
+            <div class="flex items-center gap-2.5 mb-4 text-primary-700 dark:text-primary-400 font-bold text-lg">
               {{ partial "functions/get_icon" (dict "name" "briefcase" "attributes" "class='w-5 h-5'") }}
               <span>{{ $block.content.headings.experience | default "Experience" }}</span>
             </div>
-            <ul class="space-y-3">
+            <ul class="space-y-3.5">
               {{ if $exp_items }}
                 {{ range $exp_items }}
                 <li class="relative pl-3.5 border-l-2 border-primary-500/70">
-                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-sm leading-snug">{{ .position }}</div>
-                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-0.5">{{ .company }}</div>
-                  <div class="text-[11px] font-mono text-slate-500 dark:text-slate-400 mt-0.5">{{ .period }}</div>
+                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-base leading-snug">{{ .position }}</div>
+                  <div class="text-sm text-slate-600 dark:text-slate-300 mt-0.5">{{ .company }}</div>
+                  <div class="text-xs font-mono text-slate-500 dark:text-slate-400 mt-0.5">{{ .period }}</div>
                 </li>
                 {{ end }}
               {{ else }}
                 {{ range $profile.experience }}
                 <li class="relative pl-3.5 border-l-2 border-primary-500/70">
-                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-sm leading-snug">{{ .position }}</div>
-                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-0.5">{{ .company_name }}</div>
-                  <div class="text-[11px] font-mono text-slate-500 dark:text-slate-400 mt-0.5">
+                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-base leading-snug">{{ .position }}</div>
+                  <div class="text-sm text-slate-600 dark:text-slate-300 mt-0.5">{{ .company_name }}</div>
+                  <div class="text-xs font-mono text-slate-500 dark:text-slate-400 mt-0.5">
                     {{ with .date_start }}{{ . | time.Format "2006" }}{{ end }}
                     {{ if .date_end }} – {{ if eq .date_end "Present" }}Present{{ else }}{{ .date_end | time.Format "2006" }}{{ end }}{{ else }} – Present{{ end }}
                   </div>
@@ -166,26 +166,26 @@
           </div>
 
           {{/* Education Column */}}
-          <div class="bg-slate-50/80 dark:bg-slate-800/60 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-700/60 shadow-sm">
-            <div class="flex items-center gap-2.5 mb-4 text-secondary-700 dark:text-secondary-400 font-bold text-base">
+          <div class="bg-slate-50/80 dark:bg-slate-800/60 rounded-2xl p-6 border border-slate-200/80 dark:border-slate-700/60 shadow-sm">
+            <div class="flex items-center gap-2.5 mb-4 text-secondary-700 dark:text-secondary-400 font-bold text-lg">
               {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-5 h-5'") }}
               <span>{{ $block.content.headings.education | default "Education" }}</span>
             </div>
-            <ul class="space-y-3">
+            <ul class="space-y-3.5">
               {{ if $edu_items }}
                 {{ range $edu_items }}
                 <li class="relative pl-3.5 border-l-2 border-secondary-500/70">
-                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-sm leading-snug">{{ .degree }}</div>
-                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-0.5">{{ .institution }}</div>
-                  <div class="text-[11px] font-mono text-slate-500 dark:text-slate-400 mt-0.5">{{ .period }}</div>
+                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-base leading-snug">{{ .degree }}</div>
+                  <div class="text-sm text-slate-600 dark:text-slate-300 mt-0.5">{{ .institution }}</div>
+                  <div class="text-xs font-mono text-slate-500 dark:text-slate-400 mt-0.5">{{ .period }}</div>
                 </li>
                 {{ end }}
               {{ else }}
                 {{ range $profile.education }}
                 <li class="relative pl-3.5 border-l-2 border-secondary-500/70">
-                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-sm leading-snug">{{ .degree | default .area }}</div>
-                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-0.5">{{ .institution }}</div>
-                  <div class="text-[11px] font-mono text-slate-500 dark:text-slate-400 mt-0.5">
+                  <div class="font-semibold text-slate-900 dark:text-slate-100 text-base leading-snug">{{ .degree | default .area }}</div>
+                  <div class="text-sm text-slate-600 dark:text-slate-300 mt-0.5">{{ .institution }}</div>
+                  <div class="text-xs font-mono text-slate-500 dark:text-slate-400 mt-0.5">
                     {{ with .year }}{{ . }}{{ else }}{{ with .date_end }}{{ . | time.Format "2006" }}{{ end }}{{ end }}
                   </div>
                 </li>
@@ -200,13 +200,13 @@
         {{ $interests := $block.content.interests | default $profile.interests }}
         {{ with $interests }}
         <div class="pt-2">
-          <div class="flex items-center gap-2.5 mb-3 text-slate-900 dark:text-white font-bold text-base">
+          <div class="flex items-center gap-2.5 mb-3 text-slate-900 dark:text-white font-bold text-lg">
             {{ partial "functions/get_icon" (dict "name" "sparkles" "attributes" "class='w-5 h-5 text-primary-600 dark:text-primary-400'") }}
             <span>{{ $block.content.headings.interests | default "Research Interests" }}</span>
           </div>
-          <div class="flex flex-wrap gap-2">
+          <div class="flex flex-wrap gap-2.5">
             {{ range . }}
-            <span class="inline-flex items-center bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-xs font-medium px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
+            <span class="inline-flex items-center bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-medium px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
               {{ . | markdownify | emojify }}
             </span>
             {{ end }}
