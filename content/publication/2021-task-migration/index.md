@@ -14,7 +14,7 @@ publishDate: "2021-01-01T00:00:00Z"
 
 publication_types: ["article-journal"]
 
-publication: "*IET Communications*, 1–13"
+publication: "*IET Communications*, Vol. 16, Issue 11, pp. 1290–1302"
 publication_short: "IET Commun."
 
 abstract: "Multi-access edge computing (MEC) enables mobile devices to offload computational tasks to nearby edge servers, reducing latency and energy consumption. However, user mobility creates challenges for task placement and migration. This paper proposes an intelligent task migration strategy using deep Q-learning (DQN) to dynamically decide when and where to migrate tasks. The DQN agent learns optimal migration policies by considering factors such as server load, network conditions, and user mobility patterns. Simulation results demonstrate that our approach significantly reduces task completion time and improves system efficiency compared to traditional migration strategies."

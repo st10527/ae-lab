@@ -22,7 +22,7 @@ hugoblox:
     # 社交連結 (建議先清空開發者的，之後再填您的)
     social:
       github: "https://github.com/st10527"        # 如果您有 GitHub 帳號可填入 ID
-      Orcid: "https://orcid.org/my-orcid?orcid=0000-0003-3735-0613"
+      orcid: "https://orcid.org/0000-0003-3735-0613"
       # twitter: ""     # 不用的話可以註解掉或留空
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -93,7 +93,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: false
-    language_switcher: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -105,7 +105,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     style: minimal
-    language_switcher: true
+    language_switcher: false
     # 這裡支援 HTML，可以放學校系所資訊
     text: "Department of Computer Science & Information Engineering, Tamkang University"
 

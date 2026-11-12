@@ -2,22 +2,26 @@
 title: "Channel-Aware Stackelberg Incentives for Uplink Federated Distillation in Wireless Edge Networks"
 authors:
   - Sheng-Zhi Huang
-date: "2026-02-01"
-doi: ""
+  - Gabriella Alicia Setiawan
+  - Kun-Yu Lin
+date: "2026-09-01"
 
-publishDate: "2026-02-01T00:00:00Z"
+hugoblox:
+  ids:
+    doi: "10.1109/pimrc69400.2026.11711831"
+
+publishDate: "2026-09-01T00:00:00Z"
 
 publication_types: ["paper-conference"]
 
-publication: "*2026 IEEE 37th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)*, Track 3: Mobile and Wireless Networks"
+publication: "*Proceedings of 2026 IEEE 37th International Symposium on Personal, Indoor and Mobile Radio Communications (IEEE PIMRC 2026)*, Track 3: Mobile and Wireless Networks"
 publication_short: "IEEE PIMRC 2026"
 
 abstract: "This paper investigates the uplink federated distillation problem in wireless edge networks, where mobile devices collaborate to train a machine learning model without sharing raw data. We propose a channel-aware Stackelberg game framework to design incentive mechanisms that encourage user participation while considering wireless channel conditions. The leader (edge server) determines the reward structure, and followers (mobile devices) decide their participation levels based on communication costs and channel quality. Our approach jointly optimizes computation offloading, communication resource allocation, and incentive design to maximize system utility while ensuring fairness among participants with heterogeneous channel conditions."
 
-summary: "**(First Author, Under Review)** Submitted to IEEE PIMRC 2026, Track 3: Mobile and Wireless Networks. Paper ID: 1571249437."
+summary: "**(First Author)** Presented at IEEE PIMRC 2026, Track 3: Mobile and Wireless Networks."
 
 tags:
-  - submitted
   - conference
   - Federated Learning
   - Edge Computing
@@ -50,9 +54,8 @@ slides: ""
 **IEEE PIMRC 2026** (Personal, Indoor and Mobile Radio Communications) is a flagship annual international symposium that brings together researchers and practitioners from academia and industry to discuss the latest advances in wireless communications and networking.
 
 - **Track**: Track 3 - Mobile and Wireless Networks
-- **Submission Date**: February 1, 2026
-- **Paper ID**: 1571249437
-- **Status**: Under Review
+- **Publication Date**: September 2026
+- **DOI**: 10.1109/pimrc69400.2026.11711831
 
 ## Research Highlights
 

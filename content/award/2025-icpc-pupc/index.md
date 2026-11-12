@@ -1,7 +1,9 @@
 ---
 title: '2025 ICPC Taiwan PUPC 銅牌獎'
-date: 2025-01-15
+date: 2025-07-09
 summary: '指導學生 Ting Yang Lim、KAI EN LIN、Chen-Yu Chen 參加 2025 ICPC Taiwan Private University Programming Contest，榮獲銅牌佳績'
+image:
+  caption: 'Certificate of Achievement — 2025 ICPC Taiwan PUPC Bronze Medal'
 ---
 
 ## 2025 ICPC Taiwan Private University Programming Contest (PUPC) 銅牌

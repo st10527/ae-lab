@@ -4,10 +4,13 @@ authors:
   - Sheng-Zhi Huang
   - Chih-Lin Hu
   - Mohd Yaseen Mir
-date: "2025-12-01"
-doi: ""
+date: "2025-12-08"
 
-publishDate: "2025-12-01T00:00:00Z"
+hugoblox:
+  ids:
+    doi: "10.1109/globecom59602.2025.11431976"
+
+publishDate: "2025-12-08T00:00:00Z"
 
 publication_types: ["paper-conference"]
 
@@ -37,7 +40,7 @@ url_source: ''
 url_video: ''
 
 image:
-  caption: ''
+  caption: 'Interactive Session Presentation at IEEE Globecom 2025, Taipei, Taiwan'
   focal_point: ''
   preview_only: false
 

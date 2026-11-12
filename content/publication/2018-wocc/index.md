@@ -5,7 +5,10 @@ authors:
   - Chih-Lin Hu
   - Sheng-Zhi Huang
 date: "2018-04-30"
-doi: ""
+
+hugoblox:
+  ids:
+    doi: "10.1109/wocc.2018.8372708"
 
 publishDate: "2018-04-30T00:00:00Z"
 

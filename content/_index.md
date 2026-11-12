@@ -59,11 +59,19 @@ sections:
         | 2018 | Lecturer | National Chengchi University |
         | 2017 - 2023 | Research Assistant | NSTC Research Projects |
         
+        ### Academic Service & International Conferences
+        
+        | Year | Role | Event / Venue |
+        |------|------|---------------|
+        | 2026 | Technical Program Co-Chair | International Workshop on Mobile IoT (MIoT 2026), IEEE Ubi-Media 2026, Penang, Malaysia |
+        | 2025 | Technical Program Co-Chair & Session Chair | International Workshop on Mobile IoT (MIoT 2025), IEEE Ubi-Media 2025, Bangkok, Thailand |
+        | 2022 | Conference Registration Chair | IEEE World Congress on Services (IEEE SERVICES 2022), Barcelona, Spain |
+        | Ongoing | Journal Reviewer | *Journal of Applied Science and Engineering (JASE)* (Scopus/ESCI) |
+        
         ### Awards & Honors
         
         | Year | Award |
         |------|-------|
-        | 2022 | Conference Registration Chair, IEEE SERVICES 2022, Barcelona |
         | 2019 | Silver Medal - 7th Information Application Innovation Competition |
         | 2018 | **Champion** - HP Enterprise AI Hackathon (Taiwan) |
         | 2018 | NCU Outstanding Innovation Team Award |
@@ -136,8 +144,8 @@ sections:
         
         | Name | Program | Research Topic |
         |------|---------|----------------|
-        | 王佳美 | 資工系全英碩士班 | Cross-Lingual Knowledge Distillation for Indonesian Fake News Detection |
-        | 黃祥銘 | 資工系碩士班 | 車載網路結合 MADDPG 與 Edge Computing 的智慧任務調度 |
+        | 王佳美 (Gabriella Alicia Setiawan) | 資工系全英碩士班 | Cross-Lingual Knowledge Distillation & Federated Distillation in Wireless Edge Networks *(IEEE PIMRC 2026)* |
+        | 黃祥銘 (Shiang-Ming Huang) | 資工系碩士班 | 車載網路結合 Actor-Critic / MADDPG 與 Edge Computing 的智慧中繼與任務調度 *(IEEE APWCS 2026)* |
         
         ---
         
@@ -153,11 +161,23 @@ sections:
         
         ### Student Awards (學生獲獎)
         
-        🥉 **2025 ICPC Taiwan PUPC Bronze Medal**  
+        🥉 [**2025 ICPC Taiwan PUPC Bronze Medal**](/award/2025-icpc-pupc/)  
         Ting Yang Lim, KAI EN LIN, Chen-Yu Chen
         
-        🏆 **2025 TKU CSIE Project Competition - Merit Award**  
+        🏆 [**2025 TKU CSIE Project Competition - Merit Award**](/award/2025-csie-project/)  
         歐陽林、張福明、沈千淦 — Campus International Friendship Matching System
+        
+        ---
+        
+        ### Research Projects & Industry-Academia Collaboration (研究計畫與產學合作)
+        
+        📡 [**NSTC Industry-Academia Project: Edge AIoT Real-Time Construction Safety Early Warning System**](/project/2026-nstc-construction-aiot/)  
+        **營建工地邊緣 AIoT 即時工安預警系統：感知推理與斷網通訊之整合與場域驗證**  
+        *Grant No.: NSTC 115-2622-E-032-006 (2026/11 – 2027/10) | Role: PI (w/ Co-PI Prof. Ming-Hsiu Tsai, Dept. of Civil Engineering) | Partner: 任泰技術顧問有限公司*
+        
+        🏗️ [**On-Premise Real-Time Edge AI Monitoring System for Smart Construction**](/project/2025-smart-construction-edge-ai/)  
+        **智慧工地與場域安全之全地端即時 AI 監控系統**  
+        *2025 – 2026 | Role: PI | Partner: 千溢科技股份有限公司* — Lightweight YOLO with Knowledge Distillation on NVIDIA Jetson Orin Nano for 24/7 site safety monitoring.
         
         ---
         

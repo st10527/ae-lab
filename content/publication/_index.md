@@ -3,24 +3,24 @@ title: Publications
 type: landing
 
 sections:
-  # 準備投稿/已提交的文章 (Submitted Papers)
-  - block: collection
-    id: submitted
-    content:
-      title: 📝 Submitted / Under Review
-      subtitle: Papers currently under review or in preparation
-      filters:
-        folders:
-          - publication
-        tags:
-          - submitted
-      sort_by: 'Date'
-      sort_ascending: false
-      count: 0
-      offset: 0
-    design:
-      view: citation
-      columns: 1
+  # 準備投稿/已提交的文章 (Submitted Papers) - 若有新投稿可取消註解並加上 submitted 標籤
+  # - block: collection
+  #   id: submitted
+  #   content:
+  #     title: 📝 Submitted / Under Review
+  #     subtitle: Papers currently under review or in preparation
+  #     filters:
+  #       folders:
+  #         - publication
+  #       tags:
+  #         - submitted
+  #     sort_by: 'Date'
+  #     sort_ascending: false
+  #     count: 0
+  #     offset: 0
+  #   design:
+  #     view: citation
+  #     columns: 1
   
   # 期刊論文 (Journal Papers)
   - block: collection

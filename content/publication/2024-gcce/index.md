@@ -8,7 +8,10 @@ authors:
   - Yung-Hui Chen
   - Lin Hui
 date: "2024-10-29"
-doi: ""
+
+hugoblox:
+  ids:
+    doi: "10.1109/gcce62371.2024.10760458"
 
 publishDate: "2024-10-29T00:00:00Z"
 
