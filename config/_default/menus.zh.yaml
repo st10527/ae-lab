@@ -1,0 +1,25 @@
+main:
+  - name: 關於主持
+    url: /#about
+    weight: 10
+  - name: 研究領域
+    url: /#research
+    weight: 20
+  - name: 著作發表
+    url: /publication/
+    weight: 30
+  - name: 研究計畫
+    url: /project/
+    weight: 35
+  - name: 授課課程
+    url: /#teaching
+    weight: 40
+  - name: 學生指導
+    url: /#students
+    weight: 50
+  - name: 得獎榮譽
+    url: /award/
+    weight: 55
+  - name: 聯絡方式
+    url: /#contact
+    weight: 60

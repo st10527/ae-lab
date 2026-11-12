@@ -12,13 +12,30 @@ sections:
     id: about
     content:
       username: me
-      text: ""
       headings:
         about: Research Profile
+        experience: Experience
         education: Education
         interests: Research Interests
+      experience:
+        - position: Assistant Professor
+          company: Dept. of CSIE, Tamkang University
+          period: 2023 – Present
+        - position: Visiting Scholar (NSTC Fellow)
+          company: Iowa State University, USA
+          period: 2022 – 2023
+        - position: Lecturer
+          company: National Chengchi University
+          period: 2018
+      education:
+        - degree: Ph.D. in Communication Engineering
+          institution: National Central University, Taiwan
+          period: 2016 – 2023
+        - degree: B.S. in Communication Engineering
+          institution: National Central University, Taiwan
+          period: 2012 – 2016
       button:
-        text: Join AE LAB
+        text: Contact / Join AE LAB
         url: "#contact"
     design:
       name:
@@ -28,7 +45,7 @@ sections:
         shape: circle
       css_class: "aelab-hero"
       spacing:
-        padding: ["2rem", 0, "3rem", 0]
+        padding: ["2rem", 0, "2rem", 0]
 
   # ───────────────────────── At a glance ─────────────────────────
   - block: stats
@@ -124,16 +141,6 @@ sections:
       columns: 2
       show_read_time: false
       css_class: "bg-slate-50 dark:bg-slate-900/40"
-
-  # ───────────────────────── Experience ─────────────────────────
-  - block: resume-experience
-    id: experience
-    content:
-      title: Experience
-      username: me
-    design:
-      date_format: "2006"
-      is_education_first: false
 
   # ───────────────────────── Service ─────────────────────────
   - block: markdown

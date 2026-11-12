@@ -93,7 +93,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: false
-    language_switcher: false
+    language_switcher: true
     # Call-to-action button
     cta:
       enable: false
@@ -105,7 +105,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     style: minimal
-    language_switcher: false
+    language_switcher: true
     # 這裡支援 HTML，可以放學校系所資訊
     text: "Department of Computer Science & Information Engineering, Tamkang University"
 
@@ -114,13 +114,11 @@ hugoblox:
   # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
-    # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    # Copyright notice - supports {year}, {name} placeholders
+    notice: "© {year} Autonomous Edge LAB, Tamkang University. All rights reserved."
     license:
-      type: cc                          # cc | all_rights | custom
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
+      type: all_rights
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
