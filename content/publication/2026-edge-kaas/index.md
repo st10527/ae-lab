@@ -26,7 +26,7 @@ tags:
   - Wireless Networks
   - Resource Allocation
 
-featured: true
+featured: false
 
 url_pdf: ''
 url_code: ''

@@ -94,19 +94,19 @@ sections:
     id: publications
     content:
       title: Selected Publications
-      text: Recent highlights from AE LAB. See the [full publication list](publication/) for journals, conferences, and patents.
+      text: Recent research highlights from AE LAB. See the [full publication list](publication/) for all journals, conferences, and patents.
       filters:
         folders:
           - publication
         featured_only: true
-      count: 4
+      count: 3
       archive:
         enable: true
-        text: All publications →
+        text: All publications (21) →
         link: publication/
     design:
       view: card
-      columns: 2
+      columns: 3
       show_read_time: false
 
   # ───────────────────────── Projects ─────────────────────────

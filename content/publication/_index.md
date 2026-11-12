@@ -3,29 +3,9 @@ title: Publications
 type: landing
 
 design:
-  spacing: "4rem"
+  spacing: "3.5rem"
 
 sections:
-  # 準備投稿/已提交的文章 (Submitted Papers) - 若有新投稿可取消註解並加上 submitted 標籤
-  # - block: collection
-  #   id: submitted
-  #   content:
-  #     title: 📝 Submitted / Under Review
-  #     subtitle: Papers currently under review or in preparation
-  #     filters:
-  #       folders:
-  #         - publication
-  #       tags:
-  #         - submitted
-  #     sort_by: 'Date'
-  #     sort_ascending: false
-  #     count: 0
-  #     offset: 0
-  #   design:
-  #     view: card
-  #     columns: 3
-  #     show_read_time: false
-  
   # 期刊論文 (Journal Papers)
   - block: collection
     id: journals
@@ -42,9 +22,8 @@ sections:
       count: 0
       offset: 0
     design:
-      view: card
-      columns: 3
-      show_read_time: false
+      view: citation
+      columns: 1
   
   # 會議論文 (Conference Papers)
   - block: collection
@@ -62,9 +41,8 @@ sections:
       count: 0
       offset: 0
     design:
-      view: card
-      columns: 3
-      show_read_time: false
+      view: citation
+      columns: 1
       css_class: "bg-slate-50 dark:bg-slate-900/40"
   
   # 專利 (Patents)
@@ -83,7 +61,6 @@ sections:
       count: 0
       offset: 0
     design:
-      view: card
-      columns: 2
-      show_read_time: false
+      view: citation
+      columns: 1
 ---
