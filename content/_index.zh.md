@@ -12,7 +12,7 @@ sections:
     id: about
     content:
       username: me
-      name: 黃聖智 (Sheng-Zhi Huang)
+      name: 黃勝志 (Sheng-Zhi Huang)
       role: 助理教授
       affiliation: 淡江大學 資訊工程學系
       headings:
@@ -252,7 +252,7 @@ sections:
       text: |
         實驗室積極招募對**無人機通訊與自主飛行**、**邊緣運算與 Edge AI**、**B5G/6G 無線網路**以及**智慧營建 AIoT** 感興趣的同學！提供國科會產學計畫與企業產學實作資源，並全力輔導參與 IEEE 頂級國際學術會議發表。
       button:
-        text: 聯絡黃聖智老師
+        text: 聯絡黃勝志老師
         url: mailto:167320@o365.tku.edu.tw
         icon: hero/envelope
     design:
