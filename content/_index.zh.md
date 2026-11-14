@@ -15,6 +15,7 @@ sections:
       name: 黃勝志 (Sheng-Zhi Huang)
       role: 助理教授
       affiliation: 淡江大學 資訊工程學系
+      office: "辦公室：E672"
       headings:
         about: 實驗室主持簡介
         experience: 主要經歷
@@ -257,7 +258,8 @@ sections:
         icon: hero/envelope
     design:
       card:
-        css_class: "bg-gradient-to-br from-blue-700 via-indigo-800 to-slate-900 text-white"
+        css_class: "aelab-join-card bg-gradient-to-br from-blue-700 via-indigo-800 to-slate-900"
+        text_color: "light"
 
   # ───────────────────────── Contact ─────────────────────────
   - block: contact-info
@@ -270,6 +272,7 @@ sections:
       address:
         lines:
           - 智慧邊緣實驗室 (AE LAB)
+          - 教師辦公室：E672
           - 淡江大學 資訊工程學系
           - 251301 新北市淡水區英專路 151 號
       email: 167320@o365.tku.edu.tw

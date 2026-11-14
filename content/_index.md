@@ -12,6 +12,7 @@ sections:
     id: about
     content:
       username: me
+      office: "Office: Room E672"
       headings:
         about: Research Profile
         experience: Experience
@@ -245,7 +246,8 @@ sections:
         icon: hero/envelope
     design:
       card:
-        css_class: "bg-gradient-to-br from-blue-700 via-indigo-800 to-slate-900 text-white"
+        css_class: "aelab-join-card bg-gradient-to-br from-blue-700 via-indigo-800 to-slate-900"
+        text_color: "light"
 
   # ───────────────────────── Contact ─────────────────────────
   - block: contact-info
@@ -258,6 +260,7 @@ sections:
       address:
         lines:
           - Autonomous Edge LAB (AE LAB)
+          - "Office: Room E672"
           - Dept. of Computer Science & Information Engineering
           - Tamkang University
           - No. 151, Yingzhuan Rd., Tamsui Dist.

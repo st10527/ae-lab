@@ -72,6 +72,13 @@
               {{ if .url }}</a>{{ end }}
             </p>
           {{ end }}
+
+          {{ with $block.content.office }}
+            <p class="inline-flex items-center justify-center gap-1.5 text-sm font-medium text-gray-600 dark:text-gray-400">
+              {{ partial "functions/get_icon" (dict "name" "hero/map-pin" "attributes" "class=\"w-4 h-4 text-primary-600 dark:text-primary-400 flex-shrink-0\"") }}
+              <span>{{ . }}</span>
+            </p>
+          {{ end }}
         </div>
 
         {{/* Social & Scholarly Links */}}
