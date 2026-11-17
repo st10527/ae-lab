@@ -1,25 +1,25 @@
 main:
   - name: About
-    url: /#about
+    url: "#about"
     weight: 10
   - name: Research
-    url: /#research
+    url: "#research"
     weight: 20
   - name: Publications
-    url: /publication/
+    url: "publication/"
     weight: 30
   - name: Projects
-    url: /project/
+    url: "project/"
     weight: 35
   - name: Teaching
-    url: /#teaching
+    url: "#teaching"
     weight: 40
   - name: Students
-    url: /#students
+    url: "#students"
     weight: 50
   - name: Awards
-    url: /award/
+    url: "award/"
     weight: 55
   - name: Contact
-    url: /#contact
+    url: "#contact"
     weight: 60

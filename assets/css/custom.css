@@ -293,3 +293,8 @@ article > header img,
 .dark .aelab-join-card a {
   color: #f8fafc !important;
 }
+
+/* 8. Sticky Header Anchor Offset */
+section[id] {
+  scroll-margin-top: 5rem;
+}
