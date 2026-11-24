@@ -226,6 +226,7 @@ sections:
 
         | Year | Competition / Award | Project / Team |
         |------|---------------------|----------------|
+        | 2026 | 🥉 [**第31屆大專校院資訊應用服務創新競賽 — 商業治理 AI創新組 第三名**](award/2026-innoserve-blooop/) | blooop — 即時社群 24 小時泡泡地圖 · 嚴喆、許博勛 *(Tamkang Univ. & NCHU)* |
         | 2025 | 🥉 [**ICPC Taiwan PUPC 銅牌獎**](award/2025-icpc-pupc/) | Ting Yang Lim, KAI EN LIN, Chen-Yu Chen |
         | 2025 | 🏆 [**淡江資工週系級專題競賽 佳作**](award/2025-csie-project/) | 校園國際交友配對系統 · 歐陽林、張福明、沈千淦 |
 
