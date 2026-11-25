@@ -15,17 +15,18 @@ publication_types: ["paper-conference"]
 publication: "*Proceedings of 2026 IEEE Global Conference on Consumer Electronics (IEEE GCCE 2026)* (Accepted / To Appear)"
 publication_short: "IEEE GCCE 2026 (To Appear)"
 
-abstract: ""
+abstract: "This paper presents a lightweight semantic water-level inference model for STM32-based edge flood monitoring, formulated as four-state inference over stable, rising, flood, and receding states. To reduce temporal leakage under scarce-event conditions, an event-aware training setting is adopted, where lower-magnitude events support training and augmentation while a flood event is held out for evaluation. A 17-feature depth-3 decision tree student is trained using confidence-weighted hard-label distillation from a CatBoost teacher and exported as portable C99 code for STM32 deployment. Full-stream replay validation over 2,878 cleaned water-level samples shows 100% implementation agreement with the PC-side reference implementation and an average on-board inference latency of approximately 79 µs."
 
-summary: "[(Corresponding Author)] Accepted at IEEE GCCE 2026; forthcoming in IEEE Xplore."
+summary: "[(Corresponding Author)] Accepted at IEEE GCCE 2026 (forthcoming in IEEE Xplore). Knowledge-distilled depth-3 decision tree on STM32 with ~79 µs average inference latency."
 
 tags:
   - conference
   - Edge AI
   - STM32
+  - Water-Level Monitoring
   - Semantic Inference
-  - Flood Monitoring
-  - Internet of Things
+  - Decision Tree
+  - Embedded Deployment
 
 featured: false
 
