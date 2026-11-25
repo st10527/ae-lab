@@ -28,7 +28,7 @@ sections:
               </div>
             </div>
             <div id="filter-status-pill" class="inline-flex items-center self-start md:self-auto px-4 py-1.5 rounded-full text-sm font-semibold bg-primary-50 dark:bg-primary-950/60 text-primary-700 dark:text-primary-300 border border-primary-200/60 dark:border-primary-800/60">
-              Showing: Past 5 Years (14)
+              Showing: Past 5 Years (16)
             </div>
           </div>
 
@@ -37,10 +37,10 @@ sections:
               ⭐ Past 5 Years (2022–2026)
             </button>
             <button type="button" data-filter="all" class="pub-year-btn">
-              All Publications (24)
+              All Publications (26)
             </button>
             <span class="w-px h-6 bg-slate-200 dark:bg-slate-700 mx-1 hidden sm:inline-block"></span>
-            <button type="button" data-filter="2026" class="pub-year-btn">2026 (7)</button>
+            <button type="button" data-filter="2026" class="pub-year-btn">2026 (9)</button>
             <button type="button" data-filter="2025" class="pub-year-btn">2025 (4)</button>
             <button type="button" data-filter="2024" class="pub-year-btn">2024 (1)</button>
             <button type="button" data-filter="2023" class="pub-year-btn">2023 (1)</button>

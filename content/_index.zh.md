@@ -66,9 +66,9 @@ sections:
     content:
       title: ""
       items:
-        - statistic: "24"
+        - statistic: "26"
           description: 著作發表
-          sub_metric: 21 篇已發表 · 3 篇審查中
+          sub_metric: 21 篇已刊登 · 2 篇待刊登 · 3 篇審查中
           icon: hero/document-text
         - statistic: "4"
           description: 期刊論文
@@ -132,7 +132,7 @@ sections:
       count: 3
       archive:
         enable: true
-        text: 檢視全部著作發表 (24) →
+        text: 檢視全部著作發表 (26) →
         link: publication/
     design:
       view: card

@@ -54,9 +54,9 @@ sections:
     content:
       title: ""
       items:
-        - statistic: "24"
+        - statistic: "26"
           description: Publications
-          sub_metric: 21 Published · 3 Under Review
+          sub_metric: 21 Published · 2 To Appear · 3 Under Review
           icon: hero/document-text
         - statistic: "4"
           description: Journal Articles
@@ -120,7 +120,7 @@ sections:
       count: 3
       archive:
         enable: true
-        text: All publications (24) →
+        text: All publications (26) →
         link: publication/
     design:
       view: card
